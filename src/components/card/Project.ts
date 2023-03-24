@@ -17,7 +17,6 @@ export interface Project {
 	extraPictures: ImageData[];
 	mainTech: Tech;
 	extraTechs: Tech[];
-	icon?: string;
 	live?: string
 	code?:string
 }

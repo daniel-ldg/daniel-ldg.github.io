@@ -72,4 +72,34 @@ export const projectsData: Project[] = [
 		extraTechs: [Techs.vite, Techs.framerMotion, Techs.mantine, Techs.typescript, Techs.git],
 		code: "https://github.com/daniel-ldg/daniel-ldg.github.io",
 	},
+	{
+		name: "Hangman",
+		mainPicture: { url: "/assets/iStock-1403619925_2.png", pointOfInterest:-180 },
+		extraPictures: [],
+		description: [
+			{
+				title: "Resumen del proyecto", paragraphs: [
+					"Hangman es un juego clásico de adivinanza de palabras, en el que el jugador debe adivinar la palabra oculta letra por letra antes de que se complete un dibujo de un ahorcado.",
+					"El objetivo del proyecto fue ofrecer una experiencia de juego divertida y desafiante para los usuarios, al mismo tiempo que demostrar las habilidades en el desarrollo front-end utilizando tecnologías como React, Bootstrap, Framer Motion y Lottie"
+				]
+			},
+			{
+				title: "Desarrollo del proyecto", paragraphs: [
+					"El desarrollo del proyecto comenzó con la planificación de la estructura y la funcionalidad del juego. Se creó un diseño de alta fidelidad utilizando Figma.",
+					"Para las animaciones, se usó la librería Framer Motion, permitiendo una gran personalización y control de los efectos. Se pudo animar la entrada y salida de las letras, la imagen del ahorcado, la animación de las letras acertadas y falladas, y un texto animado que se muestra cuando se gana o puerde el juego.",
+					"Para dar estilo al juego, se utilizó Bootstrap y react-Bootstrap, lo que permitió una rápida implementación de estilos y diseño responsivo. Además, para mejorar la experiencia de usuario, se incorporó la librería react-lottie para agregar animaciones atractivas y dinámicas al juego. También se utilizó la librería React-simple-keyboard para permitir al usuario introducir las letras en el juego a través de un teclado virtual."
+				]
+			},
+			{
+				title: "Conclusión", paragraphs: [
+					"El proyecto Hangman fue un gran desafío para el desarrollo de habilidades en el front-end utilizando tecnologías modernas y populares. El uso de React permitió un desarrollo rápido y eficiente del juego, mientras que Bootstrap proporcionó un estilo consistente y un diseño responsivo. La incorporación de Framer Motion, react-lottie y react-simple-keyboard agregó interactividad, animación y dinamismo, mejorando aún más la experiencia de usuario.",
+					"En general, el proyecto demostró la capacidad de crear aplicaciones web atractivas y funcionales utilizando herramientas modernas de desarrollo front-end y técnicas avanzadas de animación."
+				]
+			}
+		],
+		mainTech: Techs.react,
+		extraTechs: [ Techs.framerMotion, Techs.lottie, Techs.bootstrap],
+		code: "https://github.com/daniel-ldg/hangman",
+		live:"https://daniel-ldg.github.io/hangman/"
+	}
 ];

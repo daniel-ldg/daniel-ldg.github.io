@@ -29,5 +29,7 @@ export const Techs: { [key: string]: Tech } = {
 	blueprint: { name: "Blueprint", color:"teal" },
 	typescript: { name: "TypeScript", color:"indigo" },
 	bootstrap: { name: "Bootstrap" },
-	framerMotion: { name: "Framer Motion",color:"gray" },
+	framerMotion: { name: "Framer Motion", color: "gray" },
+	lottie: { name: "Lottie", color: "teal" },
+	
 };

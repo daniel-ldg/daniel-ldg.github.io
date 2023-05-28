@@ -12,7 +12,7 @@ export interface ImageData  {
 
 export interface Project {
 	name: string;
-	description: {paragraphs:string[], title?:string}[];
+	description: { paragraphs: string[]; title?: string; asList?: boolean }[];
 	mainPicture: ImageData;
 	extraPictures: ImageData[];
 	mainTech: Tech;

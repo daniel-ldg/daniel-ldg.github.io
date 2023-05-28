@@ -65,11 +65,19 @@ const ProjectCard = ({ project }: { project: Project }) => {
 							{project.description.map((entry, i) => (
 								<div key={i}>
 									{entry.title && <h5 className={classes.title}>{entry.title}</h5>}
-									{entry.paragraphs.map((paragraph, k) => (
-										<p className={classes.paragraph} key={k}>
-											{paragraph}
-										</p>
-									))}
+									{entry.asList && (
+										<ul>
+											{entry.paragraphs.map((paragraph, k) => (
+												<li key={k}>{paragraph}</li>
+											))}
+										</ul>
+									)}
+									{!entry.asList &&
+										entry.paragraphs.map((paragraph, k) => (
+											<p className={classes.paragraph} key={k}>
+												{paragraph}
+											</p>
+										))}
 								</div>
 							))}
 						</motion.div>

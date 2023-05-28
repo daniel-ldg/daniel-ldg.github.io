@@ -116,7 +116,6 @@ export const projectsData: Project[] = [
 				paragraphs: [
 					"Desarrollé de manera individual un proyecto full-stack de un blog utilizando Next.js como base. En este proyecto, utilicé la potente API de OpenAI para generar contenido automático en los posts del blog.",
 					"Como desarrollador web junior, asumí la responsabilidad de diseñar y crear todas las funcionalidades del proyecto, desde el inicio de sesión para el administrador hasta la implementación de estrategias SEO para mejorar la visibilidad del blog en los motores de búsqueda.",
-					"Utilicé diversas tecnologías, como MongoDB, Prisma, SerpApi, Scale Serp, ImageKit, Mantine y Framer Motion, para garantizar un desarrollo eficiente y una experiencia de usuario excepcional.",
 				],
 			},
 			{

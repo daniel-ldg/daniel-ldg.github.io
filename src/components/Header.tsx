@@ -49,7 +49,7 @@ const Header = () => {
 	return (
 		<Flex justify='flex-end' align='center' direction='column' wrap='nowrap' className={classes.header}>
 			<h1 className={classes.title}>daniel-ldg</h1>
-			<span>Junior Front-End Developer.</span>
+			<span>Full-Stack Developer.</span>
 			<h3 className={classes.subtitle}>portfolio gallery</h3>
 		</Flex>
 	);

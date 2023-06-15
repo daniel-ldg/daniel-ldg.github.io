@@ -154,6 +154,7 @@ export const projectsData: Project[] = [
 			Techs.react,
 			Techs.mantine,
 			{ name: "Heroku", color: "violet" },
+			{ name: "SEO", color: "yellow" },
 		],
 		code: "https://github.com/daniel-ldg/blog/",
 		live: "https://www.scriniun.com/",
